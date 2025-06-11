@@ -5,7 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Ezel Alexander Duque Arias</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
+    <style> 
+        html {
+             scroll-behavior: smooth;
+           }
+
+        @keyframes pulse {
+        0% {
+        transform: scale(1);
+       }
+        50% {
+        transform: scale(1.1);
+       }
+        100% {
+        transform: scale(1);
+       }
+    }
+
+        nav a:active {
+        animation: pulse 0.3s ease;
+    }
+ 
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -107,8 +127,8 @@
     <section id="contacto">
         <h2>Contacto</h2>
         <p>Correo: ezzelprod@gmail.com</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/tuusuario" target="_blank">Tu Perfil</a></p>
-        <p>GitHub: <a href="https://github.com/tuusuario" target="_blank">Tu Repositorio</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/ezel-alexander-duque-arias-1a09351ba/" target="_blank">Tu Perfil</a></p>
+        <p>GitHub: <a href="https://github.com/ezzzeloficial" target="_blank">Tu Repositorio</a></p>
     </section>
 
     <footer>
